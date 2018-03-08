@@ -8,6 +8,25 @@
 
 
 let players = []
+let lowestRoll = null
+let lowestPlayer = null
+
+players.forEach(function(currentPlayer) {
+	if( lowestRoll == null ) {
+		lowestRoll = currentPlayer.rollResult
+	} else {
+		if (currentPlayer.rollResult < lowestRoll) {
+			lowestRoll = currentPlayer.rollResult
+		}
+	}
+}
+
+players.forEach(function(currentPlayer) {
+	if(currentPlayer.id == lowestPlayer){
+		currentPlayer.alive = false
+		currentPlayer.health = 0
+	}
+})
 
 function game( playerNumber ) {
 	let player = {
