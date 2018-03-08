@@ -2,175 +2,272 @@
 // I will roll 13 times
 // Each roll may not have the same chance as the last (e.g. probability out of 6, 10, and 20)
 // Sample size is 25
-function game( player ) {
-	let health = 25
-	let poisoned = false
-	let rollResults = []
 
-	let rollResult = roll( 20 )
-	rollResults.push( rollResult )
+// Implement instant kill
+// track each player
+
+
+let players = []
+
+function game( playerNumber ) {
+	let player = {
+		id: playerNumber,
+		alive: true,
+		health: 25,
+		poisoned: false,
+		rollResults: [],
+		rollResult: null
+	}
+
+
+	player.rollResult = roll( 20 )
+	player.rollResults.push( player.rollResult )
 	
 	// Event #1
-	if ( rollResult <= 10) {
-		health = health - 1
-	} else if ( rollResult >= 11 && rollResult <= 15 ) {
-		health = health - 2
-	} else {
-		
+	if (isAlive) {
+		if ( player.rollResult <= 10) {
+			player.health = player.health - 1
+		} else if ( player.rollResult >= 11 && player.rollResult <= 15 ) {
+			player.health = player.health - 2
+		} else {
+			
+		}
+		player.rollResult = roll( 20 )
+		player.rollResults.push( player.rollResult )
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 	
-	rollResult = roll( 20 )
-	rollResults.push( rollResult )
 	
 	// Event #2
-	if ( rollResult <= 12) {
-		poisoned = true
-	} else {
-		poisoned = false
+	if (isAlive) {
+		if ( player.rollResult <= 12) {
+			player.poisoned = true
+		} else {
+			player.poisoned = false
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 	
 	// Event #3
-	rollResult = roll(6)
-	rollResults.push( rollResult )
+	if (isAlive) {
+		player.rollResult = roll(6)
+		player.rollResults.push( player.rollResult )
 
-	if (rollResult <=3) {
-		health = health - 1
+		if (player.rollResult <=3) {
+			player.health = player.health - 1
 
-	} else if (rollResult >4) {
+		} else if (player.rollResult >4) {
 
-	} else {health = health - 3
+		} else {player.health = player.health - 3
 
-	}
+		}
 
-	if(poisoned == true){
-		health = health - 1
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 	//Event #4
-	rollResult = roll(20)
-	rollResults.push(rollResult)
-	if(rollResult <=3){
+	if (isAlive) {
+		player.rollResult = roll(20)
+		player.rollResults.push(player.rollResult)
+		if(player.rollResult <=3){
 
-	} else if (rollResult >=4 && rollResult <=14){
-		health = health + 1
-	} else if (rollResult >=15 && rollResult <=18){
-		health = health + 2
-	} else {health = health + 3
-	}
-	
-	if(poisoned == true){
-		health = health - 1
+		} else if (player.rollResult >=4 && player.rollResult <=14){
+			player.health = player.health + 1
+		} else if (player.rollResult >=15 && player.rollResult <=18){
+			player.health = player.health + 2
+		} else {player.health = player.health + 3
+		}
+		
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 	//Event #5
-	rollResult = roll(6)
-	rollResults.push(rollResult)
-	if(rollResult <=2){
-	} else if (rollResult>=3 && rollResult <=5){
-		health = health -1
-	} else {
-		health = health - 3
-	}
-	if(poisoned == true){
-		health = health - 1
+	if (isAlive) {
+		player.rollResult = roll(6)
+		player.rollResults.push(player.rollResult)
+		if(player.rollResult <=2){
+		} else if (player.rollResult>=3 && player.rollResult <=5){
+			player.health = player.health -1
+		} else {
+			player.health = player.health - 3
+		}
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 	//Event #6
-	rollResult = roll(20)
-	rollResults.push(rollResult)
-	if(rollResult <=10){
-		poisoned = true 
-		health = health - 5
-	} else if (rollResult >=11 && rollResult <=20){
-	}
-	if(poisoned == true){
-		health = health - 1
+	if (isAlive) {
+		player.rollResult = roll(20)
+		player.rollResults.push(player.rollResult)
+		if(player.rollResult <=10){
+			player.poisoned = true 
+			player.health = player.health - 5
+		} else if (player.rollResult >=11 && player.rollResult <=20){
+		}
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 	//Event #7
-	rollResult = roll(20)
-	rollResults.push(rollResult)
+	if (isAlive) {
+		player.rollResult = roll(20)
+		player.rollResults.push(player.rollResult)
 
-	if(poisoned == true){
-		health = health - 1
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
-
 
 	//Event #8 
-	rollResult = roll(20)
-	rollResults.push(rollResult)
-	if(rollResult =20){
-	}
-	if(poisoned == true){
-		health = health - 1
+	if (isAlive) {
+		player.rollResult = roll(20)
+		player.rollResults.push(player.rollResult)
+		if(player.rollResult =20){
+		}
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 
 	//Event #9
-	rollResult = roll(6)
-	rollResults.push(rollResult)
-	if(rollResult = 1){
-		health = health - 1
-	} else if (rollResult >=2 && rollResult <=5){
-		health = health - 3
-	} else {
-		health - 5
-	}
-	if(poisoned == true){
-		health = health - 1
+	if (isAlive) {
+		player.rollResult = roll(6)
+		player.rollResults.push(player.rollResult)
+		if(player.rollResult = 1){
+			player.health = player.health - 1
+		} else if (player.rollResult >=2 && player.rollResult <=5){
+			player.health = player.health - 3
+		} else {
+			player.health - 5
+		}
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 	//Event #10
-	rollResult = roll(20)
-	rollResults.push(rollResult)
-	if(rollResult <=6){
-		health = health - 2
-	}
-	if(poisoned == true){
-		health = health - 1
+	if (isAlive) {
+		player.rollResult = roll(20)
+		player.rollResults.push(player.rollResult)
+		if(player.rollResult <=6){
+			player.health = player.health - 2
+		}
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 	//Event #11
-	rollResult = roll(6)
-	rollResults.push(rollResult)
-	if(rollResult >=4){
-		health = health - 4
-	}
-	if(poisoned == true){
-		health = health - 1
+	if (isAlive) {
+		player.rollResult = roll(6)
+		player.rollResults.push(player.rollResult)
+		if(player.rollResult >=4){
+			player.health = player.health - 4
+		}
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 	//Event #12
-	rollResult = roll(20)
-	rollResults.push(rollResult) 
-	if(rollResult >=7 && rollResult <=15){
-		health = health - 2
-	} else if (rollResult >=16){
-		health = health - 5
-	}
-	if(poisoned == true){
-		health = health - 1
+	if (isAlive) {
+		player.rollResult = roll(20)
+		player.rollResults.push(player.rollResult) 
+		if(player.rollResult >=7 && player.rollResult <=15){
+			player.health = player.health - 2
+		} else if (player.rollResult >=16){
+			player.health = player.health - 5
+		}
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
 	
 	//Event #13
-	rollResult = roll(20)
-	rollResults.push(rollResult) 
-	
-	if(poisoned == true){
-		health = health - 1
+	if (isAlive) {
+		player.rollResult = roll(20)
+		player.rollResults.push(player.rollResult) 
+		
+		if(player.poisoned == true){
+			player.health = player.health - 1
+		}
+
+		if (player.health <= 0) {
+			player.alive = false
+		}
 	}
 
+	return player
+}
 
-	
-	return "Player "+player+": "+health+"; Poisoned: "+poisoned+"; Result: "+rollResults
+function isAlive(player){
+	if (!player.alive) {
+		return false
+	}
+
+	return true
 }
 
 function roll( max ) {
 	return Math.floor( Math.random() * Math.floor( max ) )
 }
 
-for ( let i = 0; i < 25; i++ ) {
-	console.log( game(i) )
-	// console.log( roll( 10 ) )
+for ( let player = 0; player < 25; player++ ) {
+	players.push( game( player ) )
 }
+
+console.log(players)
