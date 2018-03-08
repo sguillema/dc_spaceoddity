@@ -77,179 +77,179 @@ function game( playerNumber ) {
 		}
 	}
 
-	//Event #4
-	if (isAlive) {
-		player.rollResult = roll(20)
-		player.rollResults.push(player.rollResult)
-		if(player.rollResult <=3){
+	// //Event #4
+	// if (isAlive) {
+	// 	player.rollResult = roll(20)
+	// 	player.rollResults.push(player.rollResult)
+	// 	if(player.rollResult <=3){
 
-		} else if (player.rollResult >=4 && player.rollResult <=14){
-			player.health = player.health + 1
-		} else if (player.rollResult >=15 && player.rollResult <=18){
-			player.health = player.health + 2
-		} else {player.health = player.health + 3
-		}
+	// 	} else if (player.rollResult >=4 && player.rollResult <=14){
+	// 		player.health = player.health + 1
+	// 	} else if (player.rollResult >=15 && player.rollResult <=18){
+	// 		player.health = player.health + 2
+	// 	} else {player.health = player.health + 3
+	// 	}
 		
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
-	//Event #5
-	if (isAlive) {
-		player.rollResult = roll(6)
-		player.rollResults.push(player.rollResult)
-		if(player.rollResult <=2){
-		} else if (player.rollResult>=3 && player.rollResult <=5){
-			player.health = player.health -1
-		} else {
-			player.health = player.health - 3
-		}
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// //Event #5
+	// if (isAlive) {
+	// 	player.rollResult = roll(6)
+	// 	player.rollResults.push(player.rollResult)
+	// 	if(player.rollResult <=2){
+	// 	} else if (player.rollResult>=3 && player.rollResult <=5){
+	// 		player.health = player.health -1
+	// 	} else {
+	// 		player.health = player.health - 3
+	// 	}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
-	//Event #6
-	if (isAlive) {
-		player.rollResult = roll(20)
-		player.rollResults.push(player.rollResult)
-		if(player.rollResult <=10){
-			player.poisoned = true 
-			player.health = player.health - 5
-		} else if (player.rollResult >=11 && player.rollResult <=20){
-		}
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// //Event #6
+	// if (isAlive) {
+	// 	player.rollResult = roll(20)
+	// 	player.rollResults.push(player.rollResult)
+	// 	if(player.rollResult <=10){
+	// 		player.poisoned = true 
+	// 		player.health = player.health - 5
+	// 	} else if (player.rollResult >=11 && player.rollResult <=20){
+	// 	}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
-	//Event #7
-	if (isAlive) {
-		player.rollResult = roll(20)
-		player.rollResults.push(player.rollResult)
+	// //Event #7
+	// if (isAlive) {
+	// 	player.rollResult = roll(20)
+	// 	player.rollResults.push(player.rollResult)
 
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
-	//Event #8 
-	if (isAlive) {
-		player.rollResult = roll(20)
-		player.rollResults.push(player.rollResult)
-		if(player.rollResult =20){
-		}
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// //Event #8 
+	// if (isAlive) {
+	// 	player.rollResult = roll(20)
+	// 	player.rollResults.push(player.rollResult)
+	// 	if(player.rollResult =20){
+	// 	}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
 
-	//Event #9
-	if (isAlive) {
-		player.rollResult = roll(6)
-		player.rollResults.push(player.rollResult)
-		if(player.rollResult = 1){
-			player.health = player.health - 1
-		} else if (player.rollResult >=2 && player.rollResult <=5){
-			player.health = player.health - 3
-		} else {
-			player.health - 5
-		}
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// //Event #9
+	// if (isAlive) {
+	// 	player.rollResult = roll(6)
+	// 	player.rollResults.push(player.rollResult)
+	// 	if(player.rollResult = 1){
+	// 		player.health = player.health - 1
+	// 	} else if (player.rollResult >=2 && player.rollResult <=5){
+	// 		player.health = player.health - 3
+	// 	} else {
+	// 		player.health - 5
+	// 	}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
-	//Event #10
-	if (isAlive) {
-		player.rollResult = roll(20)
-		player.rollResults.push(player.rollResult)
-		if(player.rollResult <=6){
-			player.health = player.health - 2
-		}
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// //Event #10
+	// if (isAlive) {
+	// 	player.rollResult = roll(20)
+	// 	player.rollResults.push(player.rollResult)
+	// 	if(player.rollResult <=6){
+	// 		player.health = player.health - 2
+	// 	}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
-	//Event #11
-	if (isAlive) {
-		player.rollResult = roll(6)
-		player.rollResults.push(player.rollResult)
-		if(player.rollResult >=4){
-			player.health = player.health - 4
-		}
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// //Event #11
+	// if (isAlive) {
+	// 	player.rollResult = roll(6)
+	// 	player.rollResults.push(player.rollResult)
+	// 	if(player.rollResult >=4){
+	// 		player.health = player.health - 4
+	// 	}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
-	//Event #12
-	if (isAlive) {
-		player.rollResult = roll(20)
-		player.rollResults.push(player.rollResult) 
-		if(player.rollResult >=7 && player.rollResult <=15){
-			player.health = player.health - 2
-		} else if (player.rollResult >=16){
-			player.health = player.health - 5
-		}
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// //Event #12
+	// if (isAlive) {
+	// 	player.rollResult = roll(20)
+	// 	player.rollResults.push(player.rollResult) 
+	// 	if(player.rollResult >=7 && player.rollResult <=15){
+	// 		player.health = player.health - 2
+	// 	} else if (player.rollResult >=16){
+	// 		player.health = player.health - 5
+	// 	}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
 	
-	//Event #13
-	if (isAlive) {
-		player.rollResult = roll(20)
-		player.rollResults.push(player.rollResult) 
+	// //Event #13
+	// if (isAlive) {
+	// 	player.rollResult = roll(20)
+	// 	player.rollResults.push(player.rollResult) 
 		
-		if(player.poisoned == true){
-			player.health = player.health - 1
-		}
+	// 	if(player.poisoned == true){
+	// 		player.health = player.health - 1
+	// 	}
 
-		if (player.health <= 0) {
-			player.alive = false
-		}
-	}
+	// 	if (player.health <= 0) {
+	// 		player.alive = false
+	// 	}
+	// }
 
 	return player
 }
