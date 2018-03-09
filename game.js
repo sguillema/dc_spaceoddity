@@ -19,7 +19,7 @@ players.forEach(function(currentPlayer) {
 			lowestRoll = currentPlayer.rollResult
 		}
 	}
-}
+})
 
 players.forEach(function(currentPlayer) {
 	if(currentPlayer.id == lowestPlayer){
