@@ -28,6 +28,26 @@ players.forEach(function(currentPlayer) {
 	}
 })
 
+function initialise(){
+	for(let i = 0; i < players; i++) {
+		players.push(
+			{
+				id: playerNumber,
+				alive: true,
+				health: 25,
+				poisoned: false,
+				rollResults: [],
+				rollResult: null
+			}
+		)
+	}
+}
+
+function round(playerNumber, roundNumber) {
+	if(roundNumber == 1) {
+	}
+}
+
 function game( playerNumber ) {
 	let player = {
 		id: playerNumber,
@@ -285,8 +305,10 @@ function roll( max ) {
 	return Math.floor( Math.random() * Math.floor( max ) )
 }
 
-for ( let player = 0; player < 25; player++ ) {
-	players.push( game( player ) )
-}
+// for ( let player = 0; player < 25; player++ ) {
+// 	players.push( game( player ) )
+// }
+
+initialise()
 
 console.log(players)
