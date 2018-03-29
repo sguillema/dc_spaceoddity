@@ -1,4 +1,4 @@
-let numberOfPlayers = 25
+let numberOfPlayers = 31
 let players = []
 let lowestRoll = null
 let lowestPlayer = null
@@ -273,7 +273,7 @@ function roll( min, max ) {
  * 
  */
 
-initialise()
+// initialise()
 
 // console.log( players )
 
@@ -284,3 +284,18 @@ initialise()
 // 	}
 // })
 // console.log(alive)
+var totalAlive = 0
+var repeats = 100
+for(var j = 0; j < repeats; j++){
+	initialise()
+	var alive = 0
+	players.forEach(( player ) => {
+		if(player.alive){
+			alive++
+		}
+	})
+	// console.log(alive)
+	totalAlive += alive
+}
+var average = Math.round(totalAlive/repeats)
+console.log("Average survivors in "+repeats+" simulations: "+average)
