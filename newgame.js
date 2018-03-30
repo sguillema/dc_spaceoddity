@@ -8,6 +8,24 @@ let lowestPlayer = null
  * 
  * Define rounds and outcomes
  * 
+ * Event descriptions:
+ * @event 1 asteroid collides with ship
+ * @event 2 poison leaks through ship
+ * @event 3 gun misfires and kills a player
+ * @event 4 player gets opportunity to heal
+ * @event 5 pirate ship latches onto ship, causes violent tremors
+ * @event 6 encounter alien. 2 players die from this encounter. If they take damage they are poisoned
+ * @event 7 alien reanimates and attacks again. No instant kill event
+ * @event 8 player insists on following glow. Companion kills one player due to over suspicion
+ * @event 9 player searches crates. If lucky, they get an item granting immunity to one death
+ * @event 10 gas leak leads to a fiery explosion in the room
+ * @event 11 you encounter pirates in the communications room and get into a scuffle
+ * @event 12 the captive crew morphs into aliens and attacks the player
+ * @event 13 ship has a messy landing onto nearby planet
+ * @event 14 -- narrative. Chance for injuries to escalate and cause massive damage.
+ * @event 15 You and your companion exit the ship. Only one player is to be left alive at this point. All but one player get shot.
+ * Game over!
+ * 
  * 
  */
 let rounds = [
@@ -53,45 +71,56 @@ let rounds = [
 			{range: [11, 20], result: -1, status: null},
 		]
 	},
+	{eventId: 7, dice: 20, special: true, dead: 2,
+		outcomes:[
+			{range: [1, 10], result: -5, status: "poisoned"},
+			{range: [11, 20], result: -1, status: null},
+		]
+	},
 	// Instant death event
-	{eventId: 7, dice: 20, special: true, dead: 1,
+	{eventId: 8, dice: 20, special: true, dead: 1,
 		outcomes:[
 		]
 	},
 	// Special item event
 	// Note: pencil is an item that grants immunity to the next event that may kill the player.
-	{eventId: 8, dice: 20, special: false,
+	{eventId: 9, dice: 20, special: false,
 		outcomes:[
 			{range: [20, 20], result: 0, status: null, item: "pencil"},
 		]
 	},
-	{eventId: 9, dice: 6, special: false,
+	{eventId: 10, dice: 6, special: false,
 		outcomes:[
 			{range: [1, 1], result: -1, status: null},
 			{range: [2, 5], result: -3, status: null},
 			{range: [6, 6], result: -5, status: null},
 		]
 	},
-	{eventId: 10, dice: 20, special: false,
+	{eventId: 11, dice: 20, special: false,
 		outcomes:[
 			{range: [1, 6], result: -2, status: null},
 			{range: [7, 15], result: -3, status: null},
 			{range: [16, 20], result: -5, status: null},
 		]
 	},
-	{eventId: 11, dice: 6, special: false,
+	{eventId: 12, dice: 6, special: false,
 		outcomes:[
 			{range: [4, 6], result: -4, status: null},
 		]
 	},
-	{eventId: 12, dice: 20, special: false,
+	{eventId: 13, dice: 20, special: false,
 		outcomes:[
 			{range: [7, 15], result: -2, status: null},
 			{range: [16, 20], result: -5, status: null},
 		]
 	},
+	{eventId: 14, dice: 6, special: false,
+		outcomes:[
+			{range: [1, 2], result: -10, status: null},
+		]
+	},
 	// Final Event -- Game over
-	{eventId: 13, dice: 20, special: false,
+	{eventId: 15, dice: 20, special: false,
 		outcomes:[
 		]
 	},
@@ -302,21 +331,21 @@ function roll( min, max ) {
  * SIMULATE GAME ONCE
  * 
  */
-initialise()
+// initialise()
 
 // console.log( players )
 
-var alive = 0
-var totalHealth = 0
-players.forEach(( player ) => {
-	if(player.alive){
-		alive++
-		totalHealth += player.health
-	}
-})
-var averageHealth = Math.round(totalHealth/alive)
-console.log("Surviving players: "+alive)
-console.log("Average health: "+averageHealth)
+// var alive = 0
+// var totalHealth = 0
+// players.forEach(( player ) => {
+// 	if(player.alive){
+// 		alive++
+// 		totalHealth += player.health
+// 	}
+// })
+// var averageHealth = Math.round(totalHealth/alive)
+// console.log("Surviving players: "+alive)
+// console.log("Average health: "+averageHealth)
 
 /**
  * 
@@ -344,11 +373,11 @@ console.log("Average health: "+averageHealth)
  * WRITE TO JSON FOR INSPECTION
  * 
  */
-// var game = {
-// 	players: players
-// }
-// var json = JSON.stringify(game)
-// var fs = require('fs')
-// fs.writeFile('results.json', json, 'utf8', function(){
-// 	console.log("Results written to 'results.json' file!")
-// })
+var game = {
+	players: players
+}
+var json = JSON.stringify(game)
+var fs = require('fs')
+fs.writeFile('results.json', json, 'utf8', function(){
+	console.log("Results written to 'results.json' file!")
+})

@@ -1,1 +1,3426 @@
-{"players":[{"id":0,"alive":false,"health":0,"poisoned":true,"rollResult":11,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":13,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":13,"health":23,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":1,"health":22,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":10,"health":23,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":5,"health":22,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":4,"health":16,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":19,"health":15,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":13,"health":14,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":10,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":5,"health":6,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":7,"health":2,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":2,"health":1,"poisoned":true,"item":null},{"eventId":12,"alive":false,"rollResult":11,"health":0,"poisoned":true,"item":null}]},{"id":1,"alive":false,"health":0,"poisoned":true,"rollResult":20,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":13,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":17,"health":23,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":6,"health":23,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":18,"health":25,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":3,"health":24,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":6,"health":18,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":6,"health":17,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":2,"health":16,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":6,"health":10,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":5,"health":6,"poisoned":true,"item":null},{"eventId":10,"alive":false,"rollResult":20,"health":0,"poisoned":true,"item":null}]},{"id":2,"alive":false,"health":0,"poisoned":true,"rollResult":10,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":17,"health":25,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":5,"health":24,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":5,"health":23,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":7,"health":23,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":3,"health":21,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":12,"health":19,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":16,"health":18,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":4,"health":17,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":13,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":11,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":19,"health":5,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":1,"health":4,"poisoned":true,"item":null},{"eventId":12,"alive":true,"rollResult":7,"health":1,"poisoned":true,"item":null},{"eventId":13,"alive":false,"rollResult":10,"health":0,"poisoned":true,"item":null}]},{"id":3,"alive":true,"health":11,"poisoned":false,"rollResult":12,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":12,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":13,"health":23,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":22,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":19,"health":25,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":1,"health":25,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":16,"health":24,"poisoned":false,"item":null},{"eventId":7,"alive":true,"rollResult":3,"health":24,"poisoned":false,"item":null},{"eventId":8,"alive":true,"rollResult":10,"health":24,"poisoned":false,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":21,"poisoned":false,"item":null},{"eventId":9,"alive":true,"rollResult":2,"health":18,"poisoned":false,"item":null},{"eventId":10,"alive":true,"rollResult":9,"health":15,"poisoned":false,"item":null},{"eventId":11,"alive":true,"rollResult":6,"health":11,"poisoned":false,"item":null},{"eventId":12,"alive":true,"rollResult":5,"health":11,"poisoned":false,"item":null},{"eventId":13,"alive":true,"rollResult":12,"health":11,"poisoned":false,"item":null}]},{"id":4,"alive":false,"health":0,"poisoned":true,"rollResult":15,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":11,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":9,"health":22,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":3,"health":20,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":12,"health":20,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":2,"health":19,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":2,"health":13,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":5,"health":12,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":19,"health":11,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":5,"health":7,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":5,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":6,"health":2,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":1,"health":1,"poisoned":true,"item":null},{"eventId":12,"alive":false,"rollResult":15,"health":0,"poisoned":true,"item":null}]},{"id":5,"alive":false,"health":0,"poisoned":true,"rollResult":"lowest","item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":20,"health":25,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":10,"health":24,"poisoned":true,"item":null},{"eventId":3,"alive":false,"rollResult":"lowest","health":0,"poisoned":true,"item":null}]},{"id":6,"alive":false,"health":0,"poisoned":true,"rollResult":6,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":20,"health":25,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":2,"health":24,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":4,"health":23,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":7,"health":23,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":1,"health":22,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":10,"health":16,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":11,"health":15,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":6,"health":14,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":5,"health":10,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":6,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":13,"health":2,"poisoned":true,"item":null},{"eventId":11,"alive":false,"rollResult":6,"health":0,"poisoned":true,"item":null}]},{"id":7,"alive":true,"health":11,"poisoned":false,"rollResult":11,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":12,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":13,"health":23,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":5,"health":23,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":7,"health":24,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":2,"health":24,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":11,"health":23,"poisoned":false,"item":null},{"eventId":7,"alive":true,"rollResult":15,"health":23,"poisoned":false,"item":null},{"eventId":8,"alive":true,"rollResult":16,"health":23,"poisoned":false,"item":null},{"eventId":9,"alive":true,"rollResult":5,"health":20,"poisoned":false,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":19,"poisoned":false,"item":null},{"eventId":10,"alive":true,"rollResult":11,"health":16,"poisoned":false,"item":null},{"eventId":11,"alive":true,"rollResult":2,"health":16,"poisoned":false,"item":null},{"eventId":12,"alive":true,"rollResult":17,"health":11,"poisoned":false,"item":null},{"eventId":13,"alive":true,"rollResult":11,"health":11,"poisoned":false,"item":null}]},{"id":8,"alive":false,"health":0,"poisoned":true,"rollResult":6,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":16,"health":25,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":9,"health":24,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":3,"health":22,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":16,"health":23,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":4,"health":21,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":2,"health":15,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":3,"health":14,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":10,"health":13,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":6,"health":7,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":2,"health":3,"poisoned":true,"item":null},{"eventId":10,"alive":false,"rollResult":6,"health":0,"poisoned":true,"item":null}]},{"id":9,"alive":false,"health":0,"poisoned":true,"rollResult":16,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":7,"health":24,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":2,"health":23,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":1,"health":21,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":19,"health":23,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":3,"health":21,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":4,"health":15,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":18,"health":14,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":20,"health":13,"poisoned":true,"item":"pencil"},{"eventId":9,"alive":true,"rollResult":1,"health":11,"poisoned":true,"item":"pencil"},{"eventId":9,"alive":true,"rollResult":3,"health":7,"poisoned":true,"item":"pencil"},{"eventId":10,"alive":true,"rollResult":"SAVED","health":3,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":"SAVED","health":3,"poisoned":true,"item":null},{"eventId":12,"alive":false,"rollResult":16,"health":0,"poisoned":true,"item":null}]},{"id":10,"alive":true,"health":6,"poisoned":false,"rollResult":3,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":11,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":15,"health":23,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":4,"health":23,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":9,"health":24,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":2,"health":24,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":14,"health":23,"poisoned":false,"item":null},{"eventId":7,"alive":true,"rollResult":4,"health":23,"poisoned":false,"item":null},{"eventId":8,"alive":true,"rollResult":8,"health":23,"poisoned":false,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":20,"poisoned":false,"item":null},{"eventId":9,"alive":true,"rollResult":6,"health":15,"poisoned":false,"item":null},{"eventId":10,"alive":true,"rollResult":19,"health":10,"poisoned":false,"item":null},{"eventId":11,"alive":true,"rollResult":5,"health":6,"poisoned":false,"item":null},{"eventId":12,"alive":true,"rollResult":4,"health":6,"poisoned":false,"item":null},{"eventId":13,"alive":true,"rollResult":3,"health":6,"poisoned":false,"item":null}]},{"id":11,"alive":false,"health":0,"poisoned":true,"rollResult":3,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":7,"health":24,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":11,"health":23,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":21,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":2,"health":20,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":4,"health":18,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":15,"health":16,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":20,"health":15,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":16,"health":14,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":10,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":6,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":14,"health":2,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":3,"health":1,"poisoned":true,"item":null},{"eventId":12,"alive":false,"rollResult":3,"health":0,"poisoned":true,"item":null}]},{"id":12,"alive":false,"health":0,"poisoned":true,"rollResult":19,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":12,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":12,"health":22,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":4,"health":21,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":1,"health":20,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":5,"health":18,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":18,"health":16,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":3,"health":15,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":15,"health":14,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":6,"health":8,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":6,"poisoned":true,"item":null},{"eventId":10,"alive":false,"rollResult":19,"health":0,"poisoned":true,"item":null}]},{"id":13,"alive":false,"health":0,"poisoned":true,"rollResult":"lowest","item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":11,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":19,"health":23,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":22,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":17,"health":24,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":1,"health":24,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":6,"health":18,"poisoned":true,"item":null},{"eventId":7,"alive":false,"rollResult":"lowest","health":0,"poisoned":true,"item":null}]},{"id":14,"alive":false,"health":0,"poisoned":true,"rollResult":14,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":12,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":10,"health":22,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":20,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":14,"health":20,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":4,"health":18,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":12,"health":16,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":15,"health":15,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":17,"health":14,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":10,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":8,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":8,"health":4,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":3,"health":3,"poisoned":true,"item":null},{"eventId":12,"alive":false,"rollResult":14,"health":0,"poisoned":true,"item":null}]},{"id":15,"alive":false,"health":0,"poisoned":true,"rollResult":"lowest","item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":11,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":15,"health":23,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":5,"health":23,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":3,"health":23,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":1,"health":23,"poisoned":false,"item":null},{"eventId":6,"alive":false,"rollResult":"lowest","health":0,"poisoned":true,"item":null}]},{"id":16,"alive":false,"health":0,"poisoned":true,"rollResult":20,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":18,"health":25,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":20,"health":25,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":1,"health":24,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":14,"health":25,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":2,"health":25,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":9,"health":19,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":11,"health":18,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":4,"health":17,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":5,"health":13,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":9,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":7,"health":5,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":1,"health":4,"poisoned":true,"item":null},{"eventId":12,"alive":false,"rollResult":20,"health":0,"poisoned":true,"item":null}]},{"id":17,"alive":false,"health":0,"poisoned":true,"rollResult":"lowest","item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":11,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":10,"health":22,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":20,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":10,"health":20,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":4,"health":18,"poisoned":true,"item":null},{"eventId":6,"alive":false,"rollResult":"lowest","health":0,"poisoned":true,"item":null}]},{"id":18,"alive":false,"health":0,"poisoned":true,"rollResult":17,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":17,"health":25,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":17,"health":25,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":24,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":3,"health":24,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":1,"health":24,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":10,"health":18,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":8,"health":17,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":16,"health":16,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":14,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":12,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":18,"health":6,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":6,"health":1,"poisoned":true,"item":null},{"eventId":12,"alive":false,"rollResult":17,"health":0,"poisoned":true,"item":null}]},{"id":19,"alive":false,"health":0,"poisoned":true,"rollResult":6,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":12,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":12,"health":22,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":1,"health":20,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":10,"health":20,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":5,"health":18,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":8,"health":12,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":12,"health":11,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":10,"health":10,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":6,"health":4,"poisoned":true,"item":null},{"eventId":9,"alive":false,"rollResult":6,"health":0,"poisoned":true,"item":null}]},{"id":20,"alive":false,"health":0,"poisoned":true,"rollResult":14,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":19,"health":25,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":5,"health":24,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":1,"health":22,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":10,"health":22,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":4,"health":20,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":18,"health":18,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":16,"health":17,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":7,"health":16,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":6,"health":10,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":6,"health":4,"poisoned":true,"item":null},{"eventId":10,"alive":false,"rollResult":14,"health":0,"poisoned":true,"item":null}]},{"id":21,"alive":false,"health":0,"poisoned":true,"rollResult":20,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":11,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":9,"health":22,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":4,"health":21,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":4,"health":21,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":4,"health":19,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":10,"health":13,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":3,"health":12,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":1,"health":11,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":7,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":3,"poisoned":true,"item":null},{"eventId":10,"alive":false,"rollResult":20,"health":0,"poisoned":true,"item":null}]},{"id":22,"alive":true,"health":12,"poisoned":false,"rollResult":12,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":5,"health":24,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":18,"health":24,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":6,"health":24,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":3,"health":24,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":2,"health":24,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":18,"health":23,"poisoned":false,"item":null},{"eventId":7,"alive":true,"rollResult":12,"health":23,"poisoned":false,"item":null},{"eventId":8,"alive":true,"rollResult":14,"health":23,"poisoned":false,"item":null},{"eventId":9,"alive":true,"rollResult":2,"health":20,"poisoned":false,"item":null},{"eventId":9,"alive":true,"rollResult":2,"health":17,"poisoned":false,"item":null},{"eventId":10,"alive":true,"rollResult":20,"health":12,"poisoned":false,"item":null},{"eventId":11,"alive":true,"rollResult":2,"health":12,"poisoned":false,"item":null},{"eventId":12,"alive":true,"rollResult":1,"health":12,"poisoned":false,"item":null},{"eventId":13,"alive":true,"rollResult":12,"health":12,"poisoned":false,"item":null}]},{"id":23,"alive":false,"health":0,"poisoned":true,"rollResult":1,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":14,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":19,"health":23,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":22,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":6,"health":23,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":3,"health":22,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":6,"health":16,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":5,"health":15,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":20,"health":14,"poisoned":true,"item":"pencil"},{"eventId":9,"alive":true,"rollResult":6,"health":8,"poisoned":true,"item":"pencil"},{"eventId":9,"alive":true,"rollResult":4,"health":4,"poisoned":true,"item":"pencil"},{"eventId":10,"alive":true,"rollResult":"SAVED","health":1,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":"SAVED","health":1,"poisoned":true,"item":null},{"eventId":12,"alive":false,"rollResult":1,"health":0,"poisoned":true,"item":null}]},{"id":24,"alive":false,"health":0,"poisoned":true,"rollResult":5,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":5,"health":24,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":2,"health":23,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":3,"health":21,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":11,"health":21,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":5,"health":19,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":10,"health":13,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":4,"health":12,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":19,"health":11,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":9,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":5,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":10,"health":1,"poisoned":true,"item":null},{"eventId":11,"alive":false,"rollResult":5,"health":0,"poisoned":true,"item":null}]},{"id":25,"alive":false,"health":0,"poisoned":true,"rollResult":5,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":18,"health":25,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":14,"health":25,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":3,"health":24,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":16,"health":26,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":6,"health":23,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":9,"health":17,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":16,"health":16,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":2,"health":15,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":11,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":9,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":11,"health":5,"poisoned":true,"item":null},{"eventId":11,"alive":false,"rollResult":5,"health":0,"poisoned":true,"item":null}]},{"id":26,"alive":false,"health":0,"poisoned":true,"rollResult":20,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":9,"health":24,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":8,"health":23,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":5,"health":22,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":1,"health":21,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":6,"health":17,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":4,"health":11,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":10,"health":10,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":10,"health":9,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":5,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":1,"poisoned":true,"item":null},{"eventId":10,"alive":false,"rollResult":20,"health":0,"poisoned":true,"item":null}]},{"id":27,"alive":false,"health":0,"poisoned":true,"rollResult":9,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":13,"health":23,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":2,"health":22,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":20,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":6,"health":20,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":6,"health":16,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":12,"health":14,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":3,"health":13,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":5,"health":12,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":8,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":4,"poisoned":true,"item":null},{"eventId":10,"alive":false,"rollResult":9,"health":0,"poisoned":true,"item":null}]},{"id":28,"alive":false,"health":0,"poisoned":true,"rollResult":6,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":6,"health":24,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":14,"health":24,"poisoned":false,"item":null},{"eventId":3,"alive":true,"rollResult":4,"health":24,"poisoned":false,"item":null},{"eventId":4,"alive":true,"rollResult":19,"health":27,"poisoned":false,"item":null},{"eventId":5,"alive":true,"rollResult":1,"health":27,"poisoned":false,"item":null},{"eventId":6,"alive":true,"rollResult":2,"health":21,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":12,"health":20,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":14,"health":19,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":15,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":1,"health":13,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":7,"health":9,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":5,"health":4,"poisoned":true,"item":null},{"eventId":12,"alive":true,"rollResult":10,"health":1,"poisoned":true,"item":null},{"eventId":13,"alive":false,"rollResult":6,"health":0,"poisoned":true,"item":null}]},{"id":29,"alive":true,"health":1,"poisoned":true,"rollResult":1,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":4,"health":24,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":2,"health":23,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":2,"health":21,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":13,"health":21,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":1,"health":20,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":15,"health":18,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":20,"health":17,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":9,"health":16,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":12,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":3,"health":8,"poisoned":true,"item":null},{"eventId":10,"alive":true,"rollResult":15,"health":4,"poisoned":true,"item":null},{"eventId":11,"alive":true,"rollResult":3,"health":3,"poisoned":true,"item":null},{"eventId":12,"alive":true,"rollResult":5,"health":2,"poisoned":true,"item":null},{"eventId":13,"alive":true,"rollResult":1,"health":1,"poisoned":true,"item":null}]},{"id":30,"alive":false,"health":0,"poisoned":true,"rollResult":18,"item":null,"history":[{"eventId":0,"alive":true,"rollResult":0,"health":25,"poisoned":false,"item":null},{"eventId":1,"alive":true,"rollResult":4,"health":24,"poisoned":false,"item":null},{"eventId":2,"alive":true,"rollResult":6,"health":23,"poisoned":true,"item":null},{"eventId":3,"alive":true,"rollResult":4,"health":22,"poisoned":true,"item":null},{"eventId":4,"alive":true,"rollResult":9,"health":22,"poisoned":true,"item":null},{"eventId":5,"alive":true,"rollResult":4,"health":20,"poisoned":true,"item":null},{"eventId":6,"alive":true,"rollResult":20,"health":18,"poisoned":true,"item":null},{"eventId":7,"alive":true,"rollResult":11,"health":17,"poisoned":true,"item":null},{"eventId":8,"alive":true,"rollResult":8,"health":16,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":6,"health":10,"poisoned":true,"item":null},{"eventId":9,"alive":true,"rollResult":4,"health":6,"poisoned":true,"item":null},{"eventId":10,"alive":false,"rollResult":18,"health":0,"poisoned":true,"item":null}]}]}
+{
+    "players": [
+        {
+            "id": 0,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 11,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 22,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 22,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 6,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 2,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": false,
+                    "rollResult": 11,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 20,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 17,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 6,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": false,
+                    "rollResult": 20,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 10,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 17,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 24,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 19,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 11,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 5,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 13,
+                    "alive": false,
+                    "rollResult": 10,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "alive": true,
+            "health": 11,
+            "poisoned": false,
+            "rollResult": 12,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 22,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 21,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 18,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 15,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 11,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 11,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 13,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 11,
+                    "poisoned": false,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 15,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 19,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 12,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 11,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 7,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 5,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 2,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": false,
+                    "rollResult": 15,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": "lowest",
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 24,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": false,
+                    "rollResult": "lowest",
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 6,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 24,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 6,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 2,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": false,
+                    "rollResult": 6,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "alive": true,
+            "health": 11,
+            "poisoned": false,
+            "rollResult": 11,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 15,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 20,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 19,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 16,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 16,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": true,
+                    "rollResult": 17,
+                    "health": 11,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 13,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 11,
+                    "poisoned": false,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 6,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 24,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 7,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 3,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": false,
+                    "rollResult": 6,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 16,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": "pencil"
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 11,
+                    "poisoned": true,
+                    "item": "pencil"
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 7,
+                    "poisoned": true,
+                    "item": "pencil"
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": "SAVED",
+                    "health": 3,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": "SAVED",
+                    "health": 3,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": false,
+                    "rollResult": 16,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "alive": true,
+            "health": 6,
+            "poisoned": false,
+            "rollResult": 3,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 15,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 8,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 20,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 15,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 10,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 6,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 6,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 13,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 6,
+                    "poisoned": false,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 3,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 15,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 6,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 2,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": false,
+                    "rollResult": 3,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 19,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 15,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 8,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 6,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": false,
+                    "rollResult": 19,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": "lowest",
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 22,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 17,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": false,
+                    "rollResult": "lowest",
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 14,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 15,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 17,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 8,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 8,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 3,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": false,
+                    "rollResult": 14,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": "lowest",
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 15,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": false,
+                    "rollResult": "lowest",
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 20,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 19,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 9,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 5,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": false,
+                    "rollResult": 20,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": "lowest",
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": false,
+                    "rollResult": "lowest",
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 17,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 17,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 17,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 8,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 12,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 6,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": false,
+                    "rollResult": 17,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 6,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 8,
+                    "health": 12,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 11,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": false,
+                    "rollResult": 6,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 14,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 24,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": false,
+                    "rollResult": 14,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 20,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 19,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 12,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 11,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 7,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 3,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": false,
+                    "rollResult": 20,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "alive": true,
+            "health": 12,
+            "poisoned": false,
+            "rollResult": 12,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 20,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 17,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 12,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 12,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 12,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 13,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 12,
+                    "poisoned": false,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 1,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 22,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 22,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": "pencil"
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 8,
+                    "poisoned": true,
+                    "item": "pencil"
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": "pencil"
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": "SAVED",
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": "SAVED",
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": false,
+                    "rollResult": 1,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 5,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 19,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 12,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 11,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 9,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 5,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": false,
+                    "rollResult": 5,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 5,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 18,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 26,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 16,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 11,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 9,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 5,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": false,
+                    "rollResult": 5,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 20,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 8,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 11,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 9,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 5,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": false,
+                    "rollResult": 20,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 9,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 23,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 14,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 12,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 8,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": false,
+                    "rollResult": 9,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 6,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 19,
+                    "health": 27,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 27,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 12,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 14,
+                    "health": 19,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 15,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 13,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 7,
+                    "health": 9,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": true,
+                    "rollResult": 10,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 13,
+                    "alive": false,
+                    "rollResult": 6,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "alive": true,
+            "health": 1,
+            "poisoned": true,
+            "rollResult": 1,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 2,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 13,
+                    "health": 21,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 15,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 12,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 8,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": true,
+                    "rollResult": 15,
+                    "health": 4,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 11,
+                    "alive": true,
+                    "rollResult": 3,
+                    "health": 3,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 12,
+                    "alive": true,
+                    "rollResult": 5,
+                    "health": 2,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 13,
+                    "alive": true,
+                    "rollResult": 1,
+                    "health": 1,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "alive": false,
+            "health": 0,
+            "poisoned": true,
+            "rollResult": 18,
+            "item": null,
+            "history": [
+                {
+                    "eventId": 0,
+                    "alive": true,
+                    "rollResult": 0,
+                    "health": 25,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 1,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 24,
+                    "poisoned": false,
+                    "item": null
+                },
+                {
+                    "eventId": 2,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 23,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 3,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 4,
+                    "alive": true,
+                    "rollResult": 9,
+                    "health": 22,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 5,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 20,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 6,
+                    "alive": true,
+                    "rollResult": 20,
+                    "health": 18,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 7,
+                    "alive": true,
+                    "rollResult": 11,
+                    "health": 17,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 8,
+                    "alive": true,
+                    "rollResult": 8,
+                    "health": 16,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 6,
+                    "health": 10,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 9,
+                    "alive": true,
+                    "rollResult": 4,
+                    "health": 6,
+                    "poisoned": true,
+                    "item": null
+                },
+                {
+                    "eventId": 10,
+                    "alive": false,
+                    "rollResult": 18,
+                    "health": 0,
+                    "poisoned": true,
+                    "item": null
+                }
+            ]
+        }
+    ]
+}
