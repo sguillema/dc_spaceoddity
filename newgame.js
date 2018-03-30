@@ -59,16 +59,10 @@ let rounds = [
 		]
 	},
 	// Special item event
+	// Note: pencil is an item that grants immunity to the next event that may kill the player.
 	{eventId: 8, dice: 20, special: false,
 		outcomes:[
-			{range: [20, 20], result: 0, status: null},
-		]
-	},
-	{eventId: 9, dice: 6, special: false,
-		outcomes:[
-			{range: [1, 1], result: -1, status: null},
-			{range: [2, 5], result: -3, status: null},
-			{range: [6, 6], result: -5, status: null},
+			{range: [20, 20], result: 0, status: null, item: "pencil"},
 		]
 	},
 	{eventId: 9, dice: 6, special: false,
@@ -120,8 +114,9 @@ function initialise(){
 				health: 25,
 				poisoned: false,
 				rollResult: 0,
+				item: null,
 				history: [
-					{eventId: 0, alive: true, rollResult: 0, health: 25, poisoned: false},				
+					{eventId: 0, alive: true, rollResult: 0, health: 25, poisoned: false, item: null},				
 				]
 			}
 		)
@@ -148,14 +143,20 @@ function initialise(){
 				var health = player.health
 				var poisoned = player.poisoned
 				var alive = player.alive
+				var item = player.item
 	
 				round.outcomes.forEach(( outcome ) => {
 					// Checks if the rollResult is within the range of the currently looped outcome.
 					if( rollResult >= outcome.range[0] && rollResult <= outcome.range[1] ){
 						// Deduct or add health based on outcome result. Also apply poison if outcome results in poison status.
 						health += outcome.result
-						if ( outcome.status == "poisoned" ){
+						if( outcome.status == "poisoned" ){
 							poisoned = true
+						}
+						// Checks if the round outcome contains an item to be given to the player and then gives the item.
+						if( !!outcome.item ){
+							item = outcome.item
+							console.log(player.id+" ACTUALLY GOT THE ITEM!! On round#"+round.eventId)
 						}
 					}
 				})
@@ -179,6 +180,7 @@ function initialise(){
 					rollResult: rollResult,
 					health: health,
 					poisoned: poisoned,
+					item: item,
 				})
 				
 				// Sets player's new stats based on round outcome.
@@ -186,6 +188,7 @@ function initialise(){
 				player.health = health
 				player.poisoned = poisoned
 				player.rollResult = rollResult
+				player.item = item
 
 			}
 
@@ -249,15 +252,42 @@ function initialise(){
 			}
 
 		}
+
+		players.forEach(( player ) => {
+			if( isImmunue( player ) && !isAlive( player ) ){
+				var previousState = player.history[player.history.length-2]
+				var newCurrentState = previousState
+				// Indicate that the player was saved this turn and remove their item.
+				newCurrentState.rollResult = "SAVED"
+				newCurrentState.item = null
+				
+				// Set player state this turn to be the same as last turn.
+				player.history[player.history.length-1] = newCurrentState
+				player.alive = newCurrentState.alive
+				player.health = newCurrentState.health
+				player.rollResult = "SAVED"
+				player.poisoned = newCurrentState.poisoned
+
+				player.item = null
+			}
+		})
 	})
 }
 
 function isAlive( player ){
-	if (!player.alive) {
+	if ( !player.alive ) {
 		return false
 	}
 
 	return true
+}
+
+function isImmunue( player ){
+	if ( player.item == "pencil" ) {
+		return true
+	}
+
+	return false
 }
 
 function roll( min, max ) {
@@ -269,33 +299,56 @@ function roll( min, max ) {
 
 /**
  * 
- * RUN THE GAME
+ * SIMULATE GAME ONCE
  * 
  */
-
-// initialise()
+initialise()
 
 // console.log( players )
 
-// var alive = 0
-// players.forEach(( player ) => {
-// 	if(player.alive){
-// 		alive++
-// 	}
+var alive = 0
+var totalHealth = 0
+players.forEach(( player ) => {
+	if(player.alive){
+		alive++
+		totalHealth += player.health
+	}
+})
+var averageHealth = Math.round(totalHealth/alive)
+console.log("Surviving players: "+alive)
+console.log("Average health: "+averageHealth)
+
+/**
+ * 
+ * SIMULATE GAME X AMOUNT OF TIMES
+ * 
+ */
+// var totalAlive = 0
+// var repeats = 1000
+// for(var j = 0; j < repeats; j++){
+// 	initialise()
+// 	var alive = 0
+// 	players.forEach(( player ) => {
+// 		if(player.alive){
+// 			alive++
+// 		}
+// 	})
+// 	// console.log(alive)
+// 	totalAlive += alive
+// }
+// var average = Math.round(totalAlive/repeats)
+// console.log("Average survivors in "+repeats+" simulations: "+average)
+
+/**
+ * 
+ * WRITE TO JSON FOR INSPECTION
+ * 
+ */
+// var game = {
+// 	players: players
+// }
+// var json = JSON.stringify(game)
+// var fs = require('fs')
+// fs.writeFile('results.json', json, 'utf8', function(){
+// 	console.log("Results written to 'results.json' file!")
 // })
-// console.log(alive)
-var totalAlive = 0
-var repeats = 100
-for(var j = 0; j < repeats; j++){
-	initialise()
-	var alive = 0
-	players.forEach(( player ) => {
-		if(player.alive){
-			alive++
-		}
-	})
-	// console.log(alive)
-	totalAlive += alive
-}
-var average = Math.round(totalAlive/repeats)
-console.log("Average survivors in "+repeats+" simulations: "+average)
