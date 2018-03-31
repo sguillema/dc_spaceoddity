@@ -6,7 +6,7 @@ let lowestPlayer = null
 /**
  * 
  * 
- * Define rounds and outcomes
+ * Define events and outcomes
  * 
  * Event descriptions:
  * @event 1 asteroid collides with ship
@@ -28,11 +28,11 @@ let lowestPlayer = null
  * 
  * 
  */
-let rounds = [
+let events = [
 	{eventId: 1, dice: 20, special: false,
 		outcomes:[
 			{range: [1, 10], result: -1, status: null},
-			{range: [11, 15], result: -2, status: null},
+			{range: [11, 15], result: -3, status: null},
 			{range: [16, 20], result: 0, status: null},
 		]
 	},
@@ -71,14 +71,16 @@ let rounds = [
 			{range: [11, 20], result: -1, status: null},
 		]
 	},
-	{eventId: 7, dice: 20, special: true, dead: 2,
+	{eventId: 7, dice: 20, special: false,
 		outcomes:[
-			{range: [1, 10], result: -5, status: "poisoned"},
-			{range: [11, 20], result: -1, status: null},
+			{range: [1, 5], result: -2, status: "poisoned"},
+			{range: [6, 10], result: -8, status: null},
+			{range: [11, 15], result: -2, status: null},
+			{range: [16, 20], result: 0, status: null},
 		]
 	},
 	// Instant death event
-	{eventId: 8, dice: 20, special: true, dead: 1,
+	{eventId: 8, dice: 20, special: true, dead: 2,
 		outcomes:[
 		]
 	},
@@ -86,10 +88,12 @@ let rounds = [
 	// Note: pencil is an item that grants immunity to the next event that may kill the player.
 	{eventId: 9, dice: 20, special: false,
 		outcomes:[
+			{range: [1, 19], result: 0, status: null},
 			{range: [20, 20], result: 0, status: null, item: "pencil"},
 		]
 	},
-	{eventId: 10, dice: 6, special: false,
+	// Instant death event
+	{eventId: 10, dice: 6, special: true, dead: 2,
 		outcomes:[
 			{range: [1, 1], result: -1, status: null},
 			{range: [2, 5], result: -3, status: null},
@@ -105,11 +109,14 @@ let rounds = [
 	},
 	{eventId: 12, dice: 6, special: false,
 		outcomes:[
+			{range: [1, 3], result: 0, status: null},
 			{range: [4, 6], result: -4, status: null},
+			{range: [3, 3], result: -10, status: null},
 		]
 	},
 	{eventId: 13, dice: 20, special: false,
 		outcomes:[
+			{range: [1, 6], result: 0, status: null},
 			{range: [7, 15], result: -2, status: null},
 			{range: [16, 20], result: -5, status: null},
 		]
@@ -117,6 +124,7 @@ let rounds = [
 	{eventId: 14, dice: 6, special: false,
 		outcomes:[
 			{range: [1, 2], result: -10, status: null},
+			{range: [3, 6], result: 0, status: null},
 		]
 	},
 	// Final Event -- Game over
@@ -154,27 +162,27 @@ function initialise(){
 	/**
 	 * Main gameplay loop
 	 * 
-	 * Loops through each round, then loops through each player.
-	 * If the looped player is alive, the game will roll based on the round's dice.
-	 * The game will then compare the player's roll against the current round's outcomes.
+	 * Loops through each event, then loops through each player.
+	 * If the looped player is alive, the game will roll based on the event's dice.
+	 * The game will then compare the player's roll against the current event's outcomes.
 	 * If outcome that matches the roll will then have its effect applied to that player.
 	 * The game will check if the player is poisoned after and will deduct -1 hp.
 	 * If the player is at 0 or less health, they will be considered dead and the game won't process them in successive loops.
 	 * The current state will be saved to the player's history and the loop will resume.
 	 */
-	rounds.forEach(( round ) => {
+	events.forEach(( event ) => {
 		players.forEach(( player ) => {
 			if( isAlive( player ) ){
 
-				// Generate random number within the round's specified sided dice.
-				var rollResult = roll( 1, round.dice )
+				// Generate random number within the event's specified sided dice.
+				var rollResult = roll( 1, event.dice )
 				// Initialise local variables of player's stats for mutation.
 				var health = player.health
 				var poisoned = player.poisoned
 				var alive = player.alive
 				var item = player.item
 	
-				round.outcomes.forEach(( outcome ) => {
+				event.outcomes.forEach(( outcome ) => {
 					// Checks if the rollResult is within the range of the currently looped outcome.
 					if( rollResult >= outcome.range[0] && rollResult <= outcome.range[1] ){
 						// Deduct or add health based on outcome result. Also apply poison if outcome results in poison status.
@@ -182,10 +190,10 @@ function initialise(){
 						if( outcome.status == "poisoned" ){
 							poisoned = true
 						}
-						// Checks if the round outcome contains an item to be given to the player and then gives the item.
+						// Checks if the event outcome contains an item to be given to the player and then gives the item.
 						if( !!outcome.item ){
 							item = outcome.item
-							console.log(player.id+" ACTUALLY GOT THE ITEM!! On round#"+round.eventId)
+							console.log(player.id+" ACTUALLY GOT THE ITEM!! On event#"+event.eventId)
 						}
 					}
 				})
@@ -202,9 +210,9 @@ function initialise(){
 					alive = false
 				}
 				
-				// Pushes mutated player stats (caused by round outcome) to the player's history.
+				// Pushes mutated player stats (caused by event outcome) to the player's history.
 				player.history.push({
-					eventId: round.eventId,
+					eventId: event.eventId,
 					alive: alive,
 					rollResult: rollResult,
 					health: health,
@@ -212,7 +220,7 @@ function initialise(){
 					item: item,
 				})
 				
-				// Sets player's new stats based on round outcome.
+				// Sets player's new stats based on event outcome.
 				player.alive = alive
 				player.health = health
 				player.poisoned = poisoned
@@ -223,10 +231,10 @@ function initialise(){
 
 		})
 
-		// If the round is "special", in this case it means that a player can instantly die, the game will find the lowest roll(s) that round and reduce those players/that player's health to 0.
-		if( round.special == true ){
-			// This will repeat for as many players that need to be killed this round. E.g. if 2, this will repeat twice.
-			for(var i = 0; i < round.dead; i++){
+		// If the event is "special", in this case it means that a player can instantly die, the game will find the lowest roll(s) that event and reduce those players/that player's health to 0.
+		if( event.special == true ){
+			// This will repeat for as many players that need to be killed this event. E.g. if 2, this will repeat twice.
+			for(var i = 0; i < event.dead; i++){
 
 				var lowestRollIds = []
 				var lowestRoll = 0
@@ -284,20 +292,27 @@ function initialise(){
 
 		players.forEach(( player ) => {
 			if( isImmunue( player ) && !isAlive( player ) ){
-				var previousState = player.history[player.history.length-2]
-				var newCurrentState = previousState
-				// Indicate that the player was saved this turn and remove their item.
-				newCurrentState.rollResult = "SAVED"
-				newCurrentState.item = null
+				// var previousState = player.history[player.history.length-2]
+				// var newCurrentState = previousState
+				// // newCurrentState.eventId += 1
+				// // Indicate that the player was saved this turn and remove their item.
+				// if(newCurrentState.rollResult == "lowest"){
+				// 	newCurrentState.rollResult += "SAVED"
+				// } else {
+				// 	newCurrentState.rollResult = "SAVED"
+				// }
+				// newCurrentState.item = null
 				
-				// Set player state this turn to be the same as last turn.
-				player.history[player.history.length-1] = newCurrentState
-				player.alive = newCurrentState.alive
-				player.health = newCurrentState.health
-				player.rollResult = "SAVED"
-				player.poisoned = newCurrentState.poisoned
+				// // Set player state this turn to be the same as last turn.
+				// player.history[player.history.length-1] = newCurrentState
+				// player.alive = newCurrentState.alive
+				// player.health = newCurrentState.health
+				// player.rollResult = newCurrentState.rollResult
+				// player.poisoned = newCurrentState.poisoned
 
+				// player.item = null
 				player.item = null
+				console.log(player.id+" was saved at event#"+event.eventId)
 			}
 		})
 	})
@@ -373,7 +388,21 @@ function roll( min, max ) {
  * WRITE TO JSON FOR INSPECTION
  * 
  */
+initialise()
+
+var alive = 0
+var totalHealth = 0
+players.forEach(( player ) => {
+	if(player.alive){
+		alive++
+		totalHealth += player.health
+	}
+})
+var averageHealth = Math.round(totalHealth/alive)
+
 var game = {
+	playersAlive: alive,
+	playerAverageHealth: averageHealth,
 	players: players
 }
 var json = JSON.stringify(game)
