@@ -1,5 +1,6 @@
 let numberOfPlayers = 31
 let players = []
+let rounds = []
 let lowestRoll = null
 let lowestPlayer = null
 
@@ -292,29 +293,55 @@ function initialise(){
 
 		players.forEach(( player ) => {
 			if( isImmunue( player ) && !isAlive( player ) ){
-				// var previousState = player.history[player.history.length-2]
-				// var newCurrentState = previousState
-				// // newCurrentState.eventId += 1
-				// // Indicate that the player was saved this turn and remove their item.
-				// if(newCurrentState.rollResult == "lowest"){
-				// 	newCurrentState.rollResult += "SAVED"
-				// } else {
-				// 	newCurrentState.rollResult = "SAVED"
-				// }
-				// newCurrentState.item = null
+				var previousState = player.history[player.history.length-2]
+				var newCurrentState = previousState
+				newCurrentState.eventId += 1
+				// Indicate that the player was saved this turn and remove their item.
+				if(newCurrentState.rollResult == "lowest"){
+					newCurrentState.rollResult += "SAVED"
+				} else {
+					newCurrentState.rollResult = "SAVED"
+				}
+				newCurrentState.item = null
 				
-				// // Set player state this turn to be the same as last turn.
-				// player.history[player.history.length-1] = newCurrentState
-				// player.alive = newCurrentState.alive
-				// player.health = newCurrentState.health
-				// player.rollResult = newCurrentState.rollResult
-				// player.poisoned = newCurrentState.poisoned
+				// Set player state this turn to be the same as last turn.
+				player.history[player.history.length-1] = newCurrentState
+				player.alive = newCurrentState.alive
+				player.health = newCurrentState.health
+				player.rollResult = newCurrentState.rollResult
+				player.poisoned = newCurrentState.poisoned
 
 				// player.item = null
 				player.item = null
 				console.log(player.id+" was saved at event#"+event.eventId)
 			}
 		})
+
+		// Compile event summary for the round
+		var round = {
+			eventId: event.eventId,
+			playersAliveCount: 0,
+			playersDeadCount: 0,
+			playersAlive: [],
+			playersDead: [],
+		}
+
+		players.forEach(( player ) => {
+			if( isAlive( player ) ){
+				round.playersAliveCount++
+				round.playersAlive.push({
+					id: player.id,
+					health: player.health
+				})
+			} else {
+				round.playersDeadCount++
+				round.playersDead.push({
+					id: player.id
+				})
+			}
+		})
+
+		rounds.push( round )
 	})
 }
 
@@ -388,25 +415,68 @@ function roll( min, max ) {
  * WRITE TO JSON FOR INSPECTION
  * 
  */
-initialise()
+// initialise()
 
-var alive = 0
-var totalHealth = 0
-players.forEach(( player ) => {
-	if(player.alive){
-		alive++
-		totalHealth += player.health
-	}
+// var alive = 0
+// var totalHealth = 0
+// players.forEach(( player ) => {
+// 	if(player.alive){
+// 		alive++
+// 		totalHealth += player.health
+// 	}
+// })
+// var averageHealth = Math.round(totalHealth/alive)
+
+// var game = {
+// 	survivors: alive,
+// 	survivorAverageHealth: averageHealth,
+// 	rounds: rounds,
+// 	players: players,
+// }
+// var json = JSON.stringify(game)
+// var fs = require('fs')
+// fs.writeFile('results.json', json, 'utf8', function(){
+// 	console.log("Results written to 'results.json' file!")
+// })
+
+/**
+ * 
+ * PROCESS RESULTS
+ * 
+ */
+var results = require('./results.json')
+var roundString = `Rounds (1-15): \n\n`
+results.rounds.forEach((round)=>{
+	roundString += `Event: `+round.eventId+`\nTotal Alive: `+round.playersAliveCount+`\nTotal Dead: `+round.playersDeadCount+`\n\n`
+	results.players.forEach((player)=>{
+		if(player.history.length >= round.eventId){
+			// round.eventId -1 because of a bug.
+			var roundInfo = player.history[round.eventId-1]
+			var status
+			if (roundInfo.alive) {
+				if (roundInfo.poisoned && roundInfo.item == null) {
+					status = "POISONED"
+				} else if (roundInfo.poisoned && roundInfo.item == "pencil") {
+					status = "POISONED, HAS PENCIL"
+				} else if (!roundInfo.poisoned && roundInfo.item == "pencil") {
+					status = "HAS PENCIL"
+				} else {
+					status = "ALIVE"
+				}
+			} else {
+				status = "DEAD"
+			}
+			roundString += `Player#`+player.id+` -- Health: `+roundInfo.health+` -- Status: `+status+`\n`
+		} else {
+			roundString += `Player#`+player.id+` -- Health: 0 -- Status: DEAD\n`
+		}
+	})
+	roundString += `\n\n`
 })
-var averageHealth = Math.round(totalHealth/alive)
 
-var game = {
-	playersAlive: alive,
-	playerAverageHealth: averageHealth,
-	players: players
-}
-var json = JSON.stringify(game)
+// console.log(roundString)
+
 var fs = require('fs')
-fs.writeFile('results.json', json, 'utf8', function(){
-	console.log("Results written to 'results.json' file!")
+fs.writeFile('results_summary.txt', roundString, function(){
+	console.log("Summary written to 'results_summary.txt' file!")
 })

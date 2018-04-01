@@ -1,0 +1,557 @@
+Rounds (1-15): 
+
+Event: 0
+Total Alive: 31
+Total Dead: 0
+
+Player#0 -- Health: 25 -- Status: ALIVE
+Player#1 -- Health: 25 -- Status: ALIVE
+Player#2 -- Health: 25 -- Status: ALIVE
+Player#3 -- Health: 25 -- Status: ALIVE
+Player#4 -- Health: 25 -- Status: ALIVE
+Player#5 -- Health: 25 -- Status: ALIVE
+Player#6 -- Health: 25 -- Status: ALIVE
+Player#7 -- Health: 25 -- Status: ALIVE
+Player#8 -- Health: 25 -- Status: ALIVE
+Player#9 -- Health: 25 -- Status: ALIVE
+Player#10 -- Health: 25 -- Status: ALIVE
+Player#11 -- Health: 25 -- Status: ALIVE
+Player#12 -- Health: 25 -- Status: ALIVE
+Player#13 -- Health: 25 -- Status: ALIVE
+Player#14 -- Health: 25 -- Status: ALIVE
+Player#15 -- Health: 25 -- Status: ALIVE
+Player#16 -- Health: 25 -- Status: ALIVE
+Player#17 -- Health: 25 -- Status: ALIVE
+Player#18 -- Health: 25 -- Status: ALIVE
+Player#19 -- Health: 25 -- Status: ALIVE
+Player#20 -- Health: 25 -- Status: ALIVE
+Player#21 -- Health: 25 -- Status: ALIVE
+Player#22 -- Health: 25 -- Status: ALIVE
+Player#23 -- Health: 25 -- Status: ALIVE
+Player#24 -- Health: 25 -- Status: ALIVE
+Player#25 -- Health: 25 -- Status: ALIVE
+Player#26 -- Health: 25 -- Status: ALIVE
+Player#27 -- Health: 25 -- Status: ALIVE
+Player#28 -- Health: 25 -- Status: ALIVE
+Player#29 -- Health: 25 -- Status: ALIVE
+Player#30 -- Health: 25 -- Status: ALIVE
+
+
+Event: 1
+Total Alive: 31
+Total Dead: 0
+
+Player#0 -- Health: 24 -- Status: ALIVE
+Player#1 -- Health: 25 -- Status: ALIVE
+Player#2 -- Health: 24 -- Status: ALIVE
+Player#3 -- Health: 24 -- Status: ALIVE
+Player#4 -- Health: 22 -- Status: ALIVE
+Player#5 -- Health: 24 -- Status: ALIVE
+Player#6 -- Health: 25 -- Status: ALIVE
+Player#7 -- Health: 24 -- Status: ALIVE
+Player#8 -- Health: 25 -- Status: ALIVE
+Player#9 -- Health: 24 -- Status: ALIVE
+Player#10 -- Health: 22 -- Status: ALIVE
+Player#11 -- Health: 22 -- Status: ALIVE
+Player#12 -- Health: 22 -- Status: ALIVE
+Player#13 -- Health: 24 -- Status: ALIVE
+Player#14 -- Health: 22 -- Status: ALIVE
+Player#15 -- Health: 24 -- Status: ALIVE
+Player#16 -- Health: 25 -- Status: ALIVE
+Player#17 -- Health: 22 -- Status: ALIVE
+Player#18 -- Health: 22 -- Status: ALIVE
+Player#19 -- Health: 24 -- Status: ALIVE
+Player#20 -- Health: 25 -- Status: ALIVE
+Player#21 -- Health: 24 -- Status: ALIVE
+Player#22 -- Health: 24 -- Status: ALIVE
+Player#23 -- Health: 25 -- Status: ALIVE
+Player#24 -- Health: 24 -- Status: ALIVE
+Player#25 -- Health: 24 -- Status: ALIVE
+Player#26 -- Health: 24 -- Status: ALIVE
+Player#27 -- Health: 24 -- Status: ALIVE
+Player#28 -- Health: 24 -- Status: ALIVE
+Player#29 -- Health: 22 -- Status: ALIVE
+Player#30 -- Health: 24 -- Status: ALIVE
+
+
+Event: 2
+Total Alive: 30
+Total Dead: 1
+
+Player#0 -- Health: 24 -- Status: ALIVE
+Player#1 -- Health: 25 -- Status: ALIVE
+Player#2 -- Health: 23 -- Status: POISONED
+Player#3 -- Health: 23 -- Status: POISONED
+Player#4 -- Health: 22 -- Status: ALIVE
+Player#5 -- Health: 23 -- Status: POISONED
+Player#6 -- Health: 24 -- Status: POISONED
+Player#7 -- Health: 24 -- Status: ALIVE
+Player#8 -- Health: 24 -- Status: POISONED
+Player#9 -- Health: 23 -- Status: POISONED
+Player#10 -- Health: 22 -- Status: ALIVE
+Player#11 -- Health: 21 -- Status: POISONED
+Player#12 -- Health: 21 -- Status: POISONED
+Player#13 -- Health: 23 -- Status: POISONED
+Player#14 -- Health: 21 -- Status: POISONED
+Player#15 -- Health: 23 -- Status: POISONED
+Player#16 -- Health: 24 -- Status: POISONED
+Player#17 -- Health: 21 -- Status: POISONED
+Player#18 -- Health: 21 -- Status: POISONED
+Player#19 -- Health: 24 -- Status: ALIVE
+Player#20 -- Health: 25 -- Status: ALIVE
+Player#21 -- Health: 23 -- Status: POISONED
+Player#22 -- Health: 24 -- Status: ALIVE
+Player#23 -- Health: 24 -- Status: POISONED
+Player#24 -- Health: 24 -- Status: ALIVE
+Player#25 -- Health: 24 -- Status: ALIVE
+Player#26 -- Health: 23 -- Status: POISONED
+Player#27 -- Health: 24 -- Status: ALIVE
+Player#28 -- Health: 23 -- Status: POISONED
+Player#29 -- Health: 21 -- Status: POISONED
+Player#30 -- Health: 24 -- Status: ALIVE
+
+
+Event: 3
+Total Alive: 30
+Total Dead: 1
+
+Player#0 -- Health: 24 -- Status: ALIVE
+Player#1 -- Health: 24 -- Status: ALIVE
+Player#2 -- Health: 21 -- Status: POISONED
+Player#3 -- Health: 21 -- Status: POISONED
+Player#4 -- Health: 22 -- Status: ALIVE
+Player#5 -- Health: 22 -- Status: POISONED
+Player#6 -- Health: 22 -- Status: POISONED
+Player#7 -- Health: 24 -- Status: ALIVE
+Player#8 -- Health: 22 -- Status: POISONED
+Player#9 -- Health: 21 -- Status: POISONED
+Player#10 -- Health: 21 -- Status: ALIVE
+Player#11 -- Health: 19 -- Status: POISONED
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 21 -- Status: POISONED
+Player#14 -- Health: 20 -- Status: POISONED
+Player#15 -- Health: 21 -- Status: POISONED
+Player#16 -- Health: 22 -- Status: POISONED
+Player#17 -- Health: 20 -- Status: POISONED
+Player#18 -- Health: 19 -- Status: POISONED
+Player#19 -- Health: 23 -- Status: ALIVE
+Player#20 -- Health: 25 -- Status: ALIVE
+Player#21 -- Health: 21 -- Status: POISONED
+Player#22 -- Health: 24 -- Status: ALIVE
+Player#23 -- Health: 23 -- Status: POISONED
+Player#24 -- Health: 24 -- Status: ALIVE
+Player#25 -- Health: 23 -- Status: ALIVE
+Player#26 -- Health: 21 -- Status: POISONED
+Player#27 -- Health: 24 -- Status: ALIVE
+Player#28 -- Health: 21 -- Status: POISONED
+Player#29 -- Health: 19 -- Status: POISONED
+Player#30 -- Health: 23 -- Status: ALIVE
+
+
+Event: 4
+Total Alive: 30
+Total Dead: 1
+
+Player#0 -- Health: 27 -- Status: ALIVE
+Player#1 -- Health: 26 -- Status: ALIVE
+Player#2 -- Health: 21 -- Status: POISONED
+Player#3 -- Health: 21 -- Status: POISONED
+Player#4 -- Health: 25 -- Status: ALIVE
+Player#5 -- Health: 23 -- Status: POISONED
+Player#6 -- Health: 22 -- Status: POISONED
+Player#7 -- Health: 24 -- Status: ALIVE
+Player#8 -- Health: 22 -- Status: POISONED
+Player#9 -- Health: 21 -- Status: POISONED
+Player#10 -- Health: 22 -- Status: ALIVE
+Player#11 -- Health: 21 -- Status: POISONED
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 21 -- Status: POISONED
+Player#14 -- Health: 22 -- Status: POISONED
+Player#15 -- Health: 21 -- Status: POISONED
+Player#16 -- Health: 22 -- Status: POISONED
+Player#17 -- Health: 20 -- Status: POISONED
+Player#18 -- Health: 21 -- Status: POISONED
+Player#19 -- Health: 24 -- Status: ALIVE
+Player#20 -- Health: 26 -- Status: ALIVE
+Player#21 -- Health: 21 -- Status: POISONED
+Player#22 -- Health: 26 -- Status: ALIVE
+Player#23 -- Health: 23 -- Status: POISONED
+Player#24 -- Health: 25 -- Status: ALIVE
+Player#25 -- Health: 26 -- Status: ALIVE
+Player#26 -- Health: 20 -- Status: POISONED
+Player#27 -- Health: 25 -- Status: ALIVE
+Player#28 -- Health: 21 -- Status: POISONED
+Player#29 -- Health: 19 -- Status: POISONED
+Player#30 -- Health: 24 -- Status: ALIVE
+
+
+Event: 5
+Total Alive: 28
+Total Dead: 3
+
+Player#0 -- Health: 27 -- Status: ALIVE
+Player#1 -- Health: 26 -- Status: ALIVE
+Player#2 -- Health: 19 -- Status: POISONED
+Player#3 -- Health: 19 -- Status: POISONED
+Player#4 -- Health: 25 -- Status: ALIVE
+Player#5 -- Health: 22 -- Status: POISONED
+Player#6 -- Health: 21 -- Status: POISONED
+Player#7 -- Health: 24 -- Status: ALIVE
+Player#8 -- Health: 20 -- Status: POISONED
+Player#9 -- Health: 20 -- Status: POISONED
+Player#10 -- Health: 21 -- Status: ALIVE
+Player#11 -- Health: 19 -- Status: POISONED
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 19 -- Status: POISONED
+Player#14 -- Health: 20 -- Status: POISONED
+Player#15 -- Health: 19 -- Status: POISONED
+Player#16 -- Health: 20 -- Status: POISONED
+Player#17 -- Health: 18 -- Status: POISONED
+Player#18 -- Health: 20 -- Status: POISONED
+Player#19 -- Health: 23 -- Status: ALIVE
+Player#20 -- Health: 25 -- Status: ALIVE
+Player#21 -- Health: 19 -- Status: POISONED
+Player#22 -- Health: 25 -- Status: ALIVE
+Player#23 -- Health: 22 -- Status: POISONED
+Player#24 -- Health: 25 -- Status: ALIVE
+Player#25 -- Health: 25 -- Status: ALIVE
+Player#26 -- Health: 19 -- Status: POISONED
+Player#27 -- Health: 24 -- Status: ALIVE
+Player#28 -- Health: 17 -- Status: POISONED
+Player#29 -- Health: 17 -- Status: POISONED
+Player#30 -- Health: 21 -- Status: ALIVE
+
+
+Event: 6
+Total Alive: 28
+Total Dead: 3
+
+Player#0 -- Health: 21 -- Status: POISONED
+Player#1 -- Health: 20 -- Status: POISONED
+Player#2 -- Health: 17 -- Status: POISONED
+Player#3 -- Health: 17 -- Status: POISONED
+Player#4 -- Health: 19 -- Status: POISONED
+Player#5 -- Health: 16 -- Status: POISONED
+Player#6 -- Health: 15 -- Status: POISONED
+Player#7 -- Health: 23 -- Status: ALIVE
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 18 -- Status: POISONED
+Player#10 -- Health: 15 -- Status: POISONED
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 17 -- Status: POISONED
+Player#14 -- Health: 14 -- Status: POISONED
+Player#15 -- Health: 17 -- Status: POISONED
+Player#16 -- Health: 14 -- Status: POISONED
+Player#17 -- Health: 16 -- Status: POISONED
+Player#18 -- Health: 14 -- Status: POISONED
+Player#19 -- Health: 22 -- Status: ALIVE
+Player#20 -- Health: 24 -- Status: ALIVE
+Player#21 -- Health: 13 -- Status: POISONED
+Player#22 -- Health: 24 -- Status: ALIVE
+Player#23 -- Health: 20 -- Status: POISONED
+Player#24 -- Health: 19 -- Status: POISONED
+Player#25 -- Health: 24 -- Status: ALIVE
+Player#26 -- Health: 17 -- Status: POISONED
+Player#27 -- Health: 23 -- Status: ALIVE
+Player#28 -- Health: 11 -- Status: POISONED
+Player#29 -- Health: 11 -- Status: POISONED
+Player#30 -- Health: 15 -- Status: POISONED
+
+
+Event: 7
+Total Alive: 26
+Total Dead: 5
+
+Player#0 -- Health: 18 -- Status: POISONED
+Player#1 -- Health: 17 -- Status: POISONED
+Player#2 -- Health: 14 -- Status: POISONED
+Player#3 -- Health: 14 -- Status: POISONED
+Player#4 -- Health: 18 -- Status: POISONED
+Player#5 -- Health: 13 -- Status: POISONED
+Player#6 -- Health: 6 -- Status: POISONED
+Player#7 -- Health: 15 -- Status: ALIVE
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 17 -- Status: POISONED
+Player#10 -- Health: 14 -- Status: POISONED
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 8 -- Status: POISONED
+Player#14 -- Health: 11 -- Status: POISONED
+Player#15 -- Health: 16 -- Status: POISONED
+Player#16 -- Health: 5 -- Status: POISONED
+Player#17 -- Health: 15 -- Status: POISONED
+Player#18 -- Health: 5 -- Status: POISONED
+Player#19 -- Health: 22 -- Status: ALIVE
+Player#20 -- Health: 22 -- Status: ALIVE
+Player#21 -- Health: 10 -- Status: POISONED
+Player#22 -- Health: 16 -- Status: ALIVE
+Player#23 -- Health: 17 -- Status: POISONED
+Player#24 -- Health: 18 -- Status: POISONED
+Player#25 -- Health: 16 -- Status: ALIVE
+Player#26 -- Health: 14 -- Status: POISONED
+Player#27 -- Health: 21 -- Status: ALIVE
+Player#28 -- Health: 10 -- Status: POISONED
+Player#29 -- Health: 8 -- Status: POISONED
+Player#30 -- Health: 14 -- Status: POISONED
+
+
+Event: 8
+Total Alive: 26
+Total Dead: 5
+
+Player#0 -- Health: 17 -- Status: POISONED
+Player#1 -- Health: 16 -- Status: POISONED
+Player#2 -- Health: 13 -- Status: POISONED
+Player#3 -- Health: 13 -- Status: POISONED
+Player#4 -- Health: 17 -- Status: POISONED
+Player#5 -- Health: 12 -- Status: POISONED
+Player#6 -- Health: 0 -- Status: DEAD
+Player#7 -- Health: 15 -- Status: ALIVE
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 16 -- Status: POISONED
+Player#10 -- Health: 13 -- Status: POISONED
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 7 -- Status: POISONED
+Player#14 -- Health: 10 -- Status: POISONED
+Player#15 -- Health: 0 -- Status: DEAD
+Player#16 -- Health: 4 -- Status: POISONED
+Player#17 -- Health: 14 -- Status: POISONED
+Player#18 -- Health: 4 -- Status: POISONED
+Player#19 -- Health: 22 -- Status: ALIVE
+Player#20 -- Health: 22 -- Status: ALIVE
+Player#21 -- Health: 9 -- Status: POISONED
+Player#22 -- Health: 16 -- Status: ALIVE
+Player#23 -- Health: 16 -- Status: POISONED
+Player#24 -- Health: 17 -- Status: POISONED
+Player#25 -- Health: 16 -- Status: ALIVE
+Player#26 -- Health: 13 -- Status: POISONED
+Player#27 -- Health: 21 -- Status: ALIVE
+Player#28 -- Health: 9 -- Status: POISONED
+Player#29 -- Health: 7 -- Status: POISONED
+Player#30 -- Health: 13 -- Status: POISONED
+
+
+Event: 9
+Total Alive: 22
+Total Dead: 9
+
+Player#0 -- Health: 16 -- Status: POISONED
+Player#1 -- Health: 15 -- Status: POISONED
+Player#2 -- Health: 12 -- Status: POISONED
+Player#3 -- Health: 12 -- Status: POISONED
+Player#4 -- Health: 16 -- Status: POISONED
+Player#5 -- Health: 11 -- Status: POISONED
+Player#6 -- Health: 0 -- Status: DEAD
+Player#7 -- Health: 15 -- Status: ALIVE
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 15 -- Status: POISONED
+Player#10 -- Health: 12 -- Status: POISONED
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 6 -- Status: POISONED
+Player#14 -- Health: 9 -- Status: POISONED
+Player#15 -- Health: 0 -- Status: DEAD
+Player#16 -- Health: 3 -- Status: POISONED
+Player#17 -- Health: 13 -- Status: POISONED
+Player#18 -- Health: 3 -- Status: POISONED
+Player#19 -- Health: 22 -- Status: ALIVE
+Player#20 -- Health: 22 -- Status: ALIVE
+Player#21 -- Health: 8 -- Status: POISONED
+Player#22 -- Health: 16 -- Status: ALIVE
+Player#23 -- Health: 15 -- Status: POISONED
+Player#24 -- Health: 16 -- Status: POISONED, HAS PENCIL
+Player#25 -- Health: 16 -- Status: ALIVE
+Player#26 -- Health: 12 -- Status: POISONED
+Player#27 -- Health: 21 -- Status: ALIVE
+Player#28 -- Health: 8 -- Status: POISONED
+Player#29 -- Health: 6 -- Status: POISONED
+Player#30 -- Health: 12 -- Status: POISONED, HAS PENCIL
+
+
+Event: 10
+Total Alive: 17
+Total Dead: 14
+
+Player#0 -- Health: 12 -- Status: POISONED
+Player#1 -- Health: 0 -- Status: DEAD
+Player#2 -- Health: 8 -- Status: POISONED
+Player#3 -- Health: 8 -- Status: POISONED
+Player#4 -- Health: 12 -- Status: POISONED
+Player#5 -- Health: 7 -- Status: POISONED
+Player#6 -- Health: 0 -- Status: DEAD
+Player#7 -- Health: 12 -- Status: ALIVE
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 9 -- Status: POISONED
+Player#10 -- Health: 8 -- Status: POISONED
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 2 -- Status: POISONED
+Player#14 -- Health: 5 -- Status: POISONED
+Player#15 -- Health: 0 -- Status: DEAD
+Player#16 -- Health: 0 -- Status: DEAD
+Player#17 -- Health: 9 -- Status: POISONED
+Player#18 -- Health: 0 -- Status: DEAD
+Player#19 -- Health: 17 -- Status: ALIVE
+Player#20 -- Health: 19 -- Status: ALIVE
+Player#21 -- Health: 4 -- Status: POISONED
+Player#22 -- Health: 13 -- Status: ALIVE
+Player#23 -- Health: 0 -- Status: DEAD
+Player#24 -- Health: 12 -- Status: POISONED, HAS PENCIL
+Player#25 -- Health: 13 -- Status: ALIVE
+Player#26 -- Health: 8 -- Status: POISONED
+Player#27 -- Health: 18 -- Status: ALIVE
+Player#28 -- Health: 4 -- Status: POISONED
+Player#29 -- Health: 2 -- Status: POISONED
+Player#30 -- Health: 8 -- Status: POISONED, HAS PENCIL
+
+
+Event: 11
+Total Alive: 8
+Total Dead: 23
+
+Player#0 -- Health: 8 -- Status: POISONED
+Player#1 -- Health: 0 -- Status: DEAD
+Player#2 -- Health: 5 -- Status: POISONED
+Player#3 -- Health: 5 -- Status: POISONED
+Player#4 -- Health: 8 -- Status: POISONED
+Player#5 -- Health: 4 -- Status: POISONED
+Player#6 -- Health: 0 -- Status: DEAD
+Player#7 -- Health: 7 -- Status: ALIVE
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 3 -- Status: POISONED
+Player#10 -- Health: 5 -- Status: POISONED
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 0 -- Status: DEAD
+Player#14 -- Health: 0 -- Status: DEAD
+Player#15 -- Health: 0 -- Status: DEAD
+Player#16 -- Health: 0 -- Status: DEAD
+Player#17 -- Health: 5 -- Status: POISONED
+Player#18 -- Health: 0 -- Status: DEAD
+Player#19 -- Health: 14 -- Status: ALIVE
+Player#20 -- Health: 16 -- Status: ALIVE
+Player#21 -- Health: 0 -- Status: DEAD
+Player#22 -- Health: 10 -- Status: ALIVE
+Player#23 -- Health: 0 -- Status: DEAD
+Player#24 -- Health: 6 -- Status: POISONED
+Player#25 -- Health: 10 -- Status: ALIVE
+Player#26 -- Health: 4 -- Status: POISONED
+Player#27 -- Health: 13 -- Status: ALIVE
+Player#28 -- Health: 0 -- Status: DEAD
+Player#29 -- Health: 0 -- Status: DEAD
+Player#30 -- Health: 4 -- Status: POISONED
+
+
+Event: 12
+Total Alive: 6
+Total Dead: 25
+
+Player#0 -- Health: 3 -- Status: POISONED
+Player#1 -- Health: 0 -- Status: DEAD
+Player#2 -- Health: 0 -- Status: DEAD
+Player#3 -- Health: 0 -- Status: DEAD
+Player#4 -- Health: 3 -- Status: POISONED
+Player#5 -- Health: 0 -- Status: DEAD
+Player#6 -- Health: 0 -- Status: DEAD
+Player#7 -- Health: 0 -- Status: DEAD
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 0 -- Status: DEAD
+Player#10 -- Health: 0 -- Status: DEAD
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 0 -- Status: DEAD
+Player#14 -- Health: 0 -- Status: DEAD
+Player#15 -- Health: 0 -- Status: DEAD
+Player#16 -- Health: 0 -- Status: DEAD
+Player#17 -- Health: 0 -- Status: DEAD
+Player#18 -- Health: 0 -- Status: DEAD
+Player#19 -- Health: 4 -- Status: ALIVE
+Player#20 -- Health: 12 -- Status: ALIVE
+Player#21 -- Health: 0 -- Status: DEAD
+Player#22 -- Health: 0 -- Status: DEAD
+Player#23 -- Health: 0 -- Status: DEAD
+Player#24 -- Health: 6 -- Status: POISONED
+Player#25 -- Health: 6 -- Status: ALIVE
+Player#26 -- Health: 0 -- Status: DEAD
+Player#27 -- Health: 9 -- Status: ALIVE
+Player#28 -- Health: 0 -- Status: DEAD
+Player#29 -- Health: 0 -- Status: DEAD
+Player#30 -- Health: 4 -- Status: POISONED
+
+
+Event: 13
+Total Alive: 2
+Total Dead: 29
+
+Player#0 -- Health: 2 -- Status: POISONED
+Player#1 -- Health: 0 -- Status: DEAD
+Player#2 -- Health: 0 -- Status: DEAD
+Player#3 -- Health: 0 -- Status: DEAD
+Player#4 -- Health: 0 -- Status: DEAD
+Player#5 -- Health: 0 -- Status: DEAD
+Player#6 -- Health: 0 -- Status: DEAD
+Player#7 -- Health: 0 -- Status: DEAD
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 0 -- Status: DEAD
+Player#10 -- Health: 0 -- Status: DEAD
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 0 -- Status: DEAD
+Player#14 -- Health: 0 -- Status: DEAD
+Player#15 -- Health: 0 -- Status: DEAD
+Player#16 -- Health: 0 -- Status: DEAD
+Player#17 -- Health: 0 -- Status: DEAD
+Player#18 -- Health: 0 -- Status: DEAD
+Player#19 -- Health: 0 -- Status: DEAD
+Player#20 -- Health: 10 -- Status: ALIVE
+Player#21 -- Health: 0 -- Status: DEAD
+Player#22 -- Health: 0 -- Status: DEAD
+Player#23 -- Health: 0 -- Status: DEAD
+Player#24 -- Health: 5 -- Status: POISONED
+Player#25 -- Health: 6 -- Status: ALIVE
+Player#26 -- Health: 0 -- Status: DEAD
+Player#27 -- Health: 7 -- Status: ALIVE
+Player#28 -- Health: 0 -- Status: DEAD
+Player#29 -- Health: 0 -- Status: DEAD
+Player#30 -- Health: 1 -- Status: POISONED
+
+
+Event: 14
+Total Alive: 2
+Total Dead: 29
+
+Player#0 -- Health: 0 -- Status: DEAD
+Player#1 -- Health: 0 -- Status: DEAD
+Player#2 -- Health: 0 -- Status: DEAD
+Player#3 -- Health: 0 -- Status: DEAD
+Player#4 -- Health: 0 -- Status: DEAD
+Player#5 -- Health: 0 -- Status: DEAD
+Player#6 -- Health: 0 -- Status: DEAD
+Player#7 -- Health: 0 -- Status: DEAD
+Player#8 -- Health: 0 -- Status: DEAD
+Player#9 -- Health: 0 -- Status: DEAD
+Player#10 -- Health: 0 -- Status: DEAD
+Player#11 -- Health: 0 -- Status: DEAD
+Player#12 -- Health: 0 -- Status: DEAD
+Player#13 -- Health: 0 -- Status: DEAD
+Player#14 -- Health: 0 -- Status: DEAD
+Player#15 -- Health: 0 -- Status: DEAD
+Player#16 -- Health: 0 -- Status: DEAD
+Player#17 -- Health: 0 -- Status: DEAD
+Player#18 -- Health: 0 -- Status: DEAD
+Player#19 -- Health: 0 -- Status: DEAD
+Player#20 -- Health: 10 -- Status: ALIVE
+Player#21 -- Health: 0 -- Status: DEAD
+Player#22 -- Health: 0 -- Status: DEAD
+Player#23 -- Health: 0 -- Status: DEAD
+Player#24 -- Health: 0 -- Status: DEAD
+Player#25 -- Health: 6 -- Status: ALIVE
+Player#26 -- Health: 0 -- Status: DEAD
+Player#27 -- Health: 0 -- Status: DEAD
+Player#28 -- Health: 0 -- Status: DEAD
+Player#29 -- Health: 0 -- Status: DEAD
+Player#30 -- Health: 0 -- Status: DEAD
+
+
