@@ -30,6 +30,11 @@ let lowestPlayer = null
  * 
  */
 let events = [
+	{eventId: 0, dice: 20, special: false,
+		outcomes:[
+			{range: [1, 20], result: 0, status: null},
+		]
+	},
 	{eventId: 1, dice: 20, special: false,
 		outcomes:[
 			{range: [1, 10], result: -1, status: null},
@@ -83,6 +88,7 @@ let events = [
 	// Instant death event
 	{eventId: 8, dice: 20, special: true, dead: 2,
 		outcomes:[
+			{range: [1, 20], result: 0, status: null},
 		]
 	},
 	// Special item event
@@ -131,6 +137,7 @@ let events = [
 	// Final Event -- Game over
 	{eventId: 15, dice: 20, special: false,
 		outcomes:[
+			{range: [1, 20], result: 0, status: null},
 		]
 	},
 ]
@@ -447,7 +454,7 @@ function roll( min, max ) {
 var results = require('./results.json')
 var roundString = `Rounds (1-15): \n\n`
 results.rounds.forEach((round)=>{
-	roundString += `Event: `+round.eventId+`\nTotal Alive: `+round.playersAliveCount+`\nTotal Dead: `+round.playersDeadCount+`\n\n`
+	roundString += `Event: `+(round.eventId-1)+`\nTotal Alive: `+round.playersAliveCount+`\nTotal Dead: `+round.playersDeadCount+`\n\n`
 	results.players.forEach((player)=>{
 		if(player.history.length >= round.eventId){
 			// round.eventId -1 because of a bug.
@@ -466,7 +473,18 @@ results.rounds.forEach((round)=>{
 			} else {
 				status = "DEAD"
 			}
-			roundString += `Player#`+player.id+` -- Health: `+roundInfo.health+` -- Status: `+status+`\n`
+			var outcomeSimplified = "ERROR"
+			outcomeSimplified = roundInfo.rollResult
+			if(outcomeSimplified != "lowest"){
+				events[round.eventId-1].outcomes.forEach(( outcome ) => {
+					if( roundInfo.rollResult >= outcome.range[0] && roundInfo.rollResult <= outcome.range[1] ){
+						outcomeSimplified += `(`+outcome.result+`)`
+					}
+				})
+			} else {
+				outcomeSimplified += "(Instant Death)"
+			}
+			roundString += `Player#`+player.id+` -- Roll(Effect): `+outcomeSimplified+` -- Health: `+roundInfo.health+` -- Status: `+status+`\n`
 		} else {
 			roundString += `Player#`+player.id+` -- Health: 0 -- Status: DEAD\n`
 		}
