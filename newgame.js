@@ -454,7 +454,7 @@ function roll( min, max ) {
 var results = require('./results.json')
 var roundString = `Rounds (1-15): \n\n`
 results.rounds.forEach((round)=>{
-	roundString += `Event: `+(round.eventId-1)+`\nTotal Alive: `+round.playersAliveCount+`\nTotal Dead: `+round.playersDeadCount+`\n\n`
+	roundString += `Event: `+(round.eventId)+`\nTotal Alive: `+round.playersAliveCount+`\nTotal Dead: `+round.playersDeadCount+`\n\n`
 	results.players.forEach((player)=>{
 		if(player.history.length >= round.eventId){
 			// round.eventId -1 because of a bug.
